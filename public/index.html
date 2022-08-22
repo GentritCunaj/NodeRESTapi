@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+    <title>Book List</title>
+  </head>
+  <body>
+    <form class="task-form">
+      <h4>Book List</h4>
+      <p style="display:inline">Name</p>
+      <div class="form-control" style="display: inline-block; margin: 0%;">
+        <input
+          type="text"
+          name="name"
+          id = "name-input"
+          class="task-input"
+          placeholder="Name of the book"
+        />
+        <p style="display:inline">Author</p>
+        <input
+          type="text"
+          name="author"
+          id = "author-input"
+          class="task-input"
+          placeholder="Author of the book"
+        />
+        <p style="display:inline">Pages</p>
+        <input
+          type="number"
+          name="pages"
+          id = "pages-input"
+          class="task-input"
+          placeholder="Book pages length"
+          style="display: inline-block;"
+        />
+        <p style="display:inline">Pages Completed</p>
+        <input
+          type="number"
+          name="pagesCompleted"
+          id = "pagesCompleted-input"
+          class="task-input"
+          placeholder="Pages that you have read"
+        />
+        <p style="display:inline">Year</p>
+        <input
+          type="number"
+          name="year"
+          id = "year-input"
+          class="task-input"
+          placeholder="The year that the book came out"
+        />
+        
+        <button type="submit" class="btn submit-btn">submit</button>
+      </div>
+      <div class="form-alert"></div>
+    </form>
+    <section class="tasks-container">
+      <p class="loading-text">Loading...</p>
+      <div class="tasks"></div>
+    </section>
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./browser-app.js"></script>
+  </body>
+</html>

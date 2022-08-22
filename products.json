@@ -1,0 +1,32 @@
+[
+    {
+        "author": "Fyodor Dostoevsky",
+        "pages": 551,
+        "title": "Crime and Punishment",
+        "year": 1866
+      },
+      {
+        "author": "Albert Camus",
+        "pages": 185,
+        "title": "The Stranger",
+        "year": 1942
+      },
+      {
+        "author": "Franz Kafka",
+        "pages": 488,
+        "title": "Stories",
+        "year": 1924
+      },
+      {
+        "author": "Johann Wolfgang von Goethe",
+        "pages": 158,
+        "title": "Faust",
+        "year": 1832
+      },
+      {
+        "author": "George Orwell",
+        "pages": 272,
+        "title": "Nineteen Eighty-Four",
+        "year": 1949
+      }
+]
